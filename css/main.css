@@ -1,1 +1,144 @@
-/* Los estilos de tu proyecto */
+#logo {
+    width: 6em;
+}
+
+.yellow-bg {
+    background: #fbbd00;
+}
+
+.bold * {
+    font-weight: bold;
+}
+
+.no-pad {
+    padding: 0;
+}
+
+.no-mar {
+    margin: 0;
+}
+
+.pad {
+    padding: 2.5em 0;
+}
+
+.full-pad {
+    padding: 2em;
+}
+
+.mar {
+    margin: 2.5em 0;
+}
+
+.white-bg {
+    background: white;
+}
+
+nav li a {
+    font-size: 1.3em;
+}
+
+#home {
+    background-image: url(../assets/images/taxi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 91%;
+}
+
+#home ul {
+    list-style: none;
+    padding: 0;
+}
+
+#home ul span {
+    font-size: 1em;
+}
+
+#card {
+    color: white;
+    padding: 1em 2em;
+    margin: 12em 0;
+}
+
+#card h2 {
+    line-height: 1;
+}
+
+#card h4, #card img{
+    display: inline-block;
+}
+
+#card img {
+    width: 6em;
+    vertical-align: text-bottom;
+    margin: 0 0.5em;
+}
+
+#card button {
+    border: none;
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+
+#card .divisor {
+    width: 100%;
+    height: 1px;
+    background: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#card ul li:last-child {
+    padding-top: 1em;
+}
+
+#download {
+    color: white;
+    padding: 5em 0;
+}
+
+#download-bord {
+    border-width: 2px 2px 2px 0;
+    border-color: white;
+    border-style: solid;
+    padding: 3em 0;
+}
+
+#download-bord h3 {
+    font-size: 2.3em;
+}
+
+#download-bord p {
+    font-size: 1.6em;
+}
+
+#drive {
+    background-image: url(../assets/images/conduce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#drive-invite {
+    background: rgba(0, 0, 0, 0.589);
+    color: white;
+    padding: 7em 3em 10em;
+}
+
+#drive-invite h2 {
+    margin: 0;
+}
+
+#drive-invite p {
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+
+#drive-invite button {
+    font-size: 1.2em;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
