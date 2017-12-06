@@ -1,8 +1,52 @@
 @media (max-width: 767px) {
-    header .navbar-nav li {
-       
+    .desktop {
+        display: none;
     }
-    header .navbar-nav .glyphicon {
-        display: inline-block;
+    .mobile {
+        display: initial;
+    }
+    #card {
+        padding: 4em auto;
+        margin: 8em 0;
+    }
+    #download {
+        padding: 0;
+    }
+    #download-bord {
+        margin: 2em 1em;
+        border-left: 1px solid white;
+        padding: 3em;
+    }
+    #drive-invite p {
+        font-size: 1.5em;
+    }
+    #fees .input input {
+        font-size: 1.6em;
+    }
+    #fees .input span {
+        font-size: 2em;
+        margin: 0 0.5em;
+    }
+    #fees button, #drive-invite button {
+        font-size: 1.5em;
+    }
+    #map {
+        margin-top: 4em;
+    }
+    footer {
+        padding: 1em 0;
+    }
+    footer ul {
+        font-size: 1.3em;
+    }
+    footer #icons {
+        text-align: center;
+    }
+    footer #icons li {
+       margin: 0.4em;
+       font-size: 2em;
+    }
+    #copyright p {
+        font-size: 1.3em;
     }
 }

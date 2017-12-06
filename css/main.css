@@ -4,6 +4,11 @@
 
 .yellow-bg {
     background: #fbbd00;
+    color: white;
+}
+
+.no-bord {
+    border: none;
 }
 
 .bold * {
@@ -75,7 +80,6 @@ nav li a {
 }
 
 #card button {
-    border: none;
     font-size: 1.2em;
     margin: 1em 0;
 }
@@ -100,7 +104,6 @@ nav li a {
 
 #download-bord {
     border-width: 2px 2px 2px 0;
-    border-color: white;
     border-style: solid;
     padding: 3em 0;
 }
@@ -137,8 +140,165 @@ nav li a {
 
 #drive-invite button {
     font-size: 1.2em;
-    border: none;
-    color: white;
     font-weight: bold;
 }
 
+#fees {
+    padding: 3em;
+}
+
+#fees h2 {
+    line-height: 2;
+}
+
+#fees p {
+    font-size: 1.3em;
+}
+
+.input {
+    margin: 2em 0;
+}
+
+.input span {
+    margin: 0 1em;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+.input input {
+    border: 1px solid white;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.input input::-webkit-input-placeholder {
+    color: white;
+}
+
+.button button {
+    padding: 0.5em 2.5em;
+}
+
+#map {
+    border: 1px solid white;
+    padding: 0.5em;
+}
+
+footer {
+    background: #2f2f2f;
+    color: white;
+    padding: 5em 0;
+}
+
+#footer-content {
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: white;
+    margin: 1em 0;
+    padding-top: 2em;
+}
+
+#footer-content a {
+    color: white;
+}
+
+#footer-content ul li {
+    margin-top: 1em;
+}
+
+.app ul li {
+    width: 90%;
+}
+
+/*------mobile-------*/
+.mobile {
+    display: none;
+}
+
+#home .mobile button {
+    padding: 0.5em;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin-top: 1.5em;
+}
+
+#card .mobile h2, #card .mobile img {
+    display: inline-block;
+}
+
+#download .mobile h2 {
+    margin-bottom: 1em;
+}
+
+/*---MODALS***/
+.modal {
+    margin-top: 2%;
+}
+
+/*login*/
+
+#log-in form {
+    text-align: center;
+}
+
+#log-in .input-group {
+    margin: 1em 0;
+}
+
+#log-in form button {
+    font-size: 1.2em;
+    padding: 0.5em 1.5em;
+}
+
+#log-in form button:hover {
+    background: #eeb302;
+    color: white;
+}
+
+#retrieve {
+    margin: 2em 0;
+}
+
+#retrieve a {
+    color: #fbbd00;
+    text-decoration: underline;
+}
+
+/*signin*/
+#sign-in .modal-title button {
+    background: black;
+    color: white;
+    width: 100%;
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+#sign-in .modal-title h4 {
+    margin: 1em 0;
+}
+
+ .modal-body button {
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
+
+.modal-body .dropdown-menu {
+    width: 100%;
+}
+
+/*become a driver*/
+#become .form-group {
+    margin: 1em 0;
+}
+
+#become select {
+    width: 100%;
+}
+
+#become a {
+    color: #fbbd00;
+    text-decoration: underline;
+}
