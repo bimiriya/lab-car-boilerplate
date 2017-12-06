@@ -44,7 +44,7 @@ nav li a {
 }
 
 #home {
-    background-image: url(../assets/images/taxi.jpg);
+    background-image: url(../images/taxi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 91%;
@@ -117,7 +117,7 @@ nav li a {
 }
 
 #drive {
-    background-image: url(../assets/images/conduce.jpg);
+    background-image: url(../images/conduce.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
